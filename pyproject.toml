@@ -5,7 +5,7 @@ description = ""
 authors = ["alexiscampan <alexis.campan@ut-capitole.fr>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 pandas = "^1.3.4"
 bs4 = "^0.0.1"
 pylint = "^2.12.1"
