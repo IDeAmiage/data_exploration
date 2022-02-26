@@ -43,6 +43,7 @@ def get_dataset_v2(dataset_id: str, save=False, folder="data"):
     Returns:
         pd.DataFrame: return the desire dataframe
     """
+    df = None
     try:
         response = requests.get(
             str('https://data.opendatasoft.com/api/v2/catalog/datasets/' + dataset_id + '/exports/csv'))
