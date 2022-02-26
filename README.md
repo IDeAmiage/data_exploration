@@ -2,7 +2,7 @@
 
 ## Install dependencies 
 Install dependencies gestionnary:<br/>
-`pip install poetry`
+`pip install poetry` <br/>
 Install dependencies:<br/>
 `poetry install`
 
